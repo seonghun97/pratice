@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="lesson">
+      <UniqueIdentifier>{23d23122-c559-4476-9c44-722bd2ae7fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lesson\01.프로젝트 생성 + 입출력">
+      <UniqueIdentifier>{084cb2ec-f2c3-4c54-929e-90204f6ba6b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lesson\02.자료형 + 변수 + 난수C++">
+      <UniqueIdentifier>{cc58eb71-ad82-4aee-bd16-ac941bc78819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lesson\03 연산자 + 반복문">
+      <UniqueIdentifier>{78772cbd-0ae0-40ce-aa41-02ec09aaa15c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lesson\04.조건문">
+      <UniqueIdentifier>{349d935b-dd82-4ee0-b7c7-d3e1d2c95efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lesson\05. 함수+변/상수 +전처리기">
+      <UniqueIdentifier>{70fe934b-763d-439a-9c4e-584a61fb88c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="과제">
+      <UniqueIdentifier>{1cacfa5c-22ab-4042-bb0d-4eacf3fdc53b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="과제\과제0718">
+      <UniqueIdentifier>{f6112694-8ce9-4c4a-b63b-9bcf8d67048d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="과제\과제0719">
+      <UniqueIdentifier>{68ad72d2-ab29-4e8e-8842-7319c9a7fd9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="과제\homework">
+      <UniqueIdentifier>{8483a413-0cf9-49d0-b59d-99dba9e9cb0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lesson\연습폴더">
+      <UniqueIdentifier>{477955dc-5cb7-4e04-bfb6-919576cfd440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="과제\과제0722">
+      <UniqueIdentifier>{a01ce4a4-1676-435b-b519-1add1ff301e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lesson\06. 배열">
+      <UniqueIdentifier>{2442f660-9a31-46f7-8381-7d47650f4f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="과제\과제0723">
+      <UniqueIdentifier>{fa054f6a-de22-421f-be21-1f3b8ce4c395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="과제\과제0724">
+      <UniqueIdentifier>{53e78e23-bee2-492b-a64e-f437ebf6bae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lesson\07. 삼항연산자, str함수 ,함수 오버로딩">
+      <UniqueIdentifier>{8cb79c09-4dd2-4356-b8af-3cdbd1aac6c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lesson\08. 사용자 정의 자료형">
+      <UniqueIdentifier>{3a2d033b-1782-4532-9fea-584f774520ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="과제\과제0725">
+      <UniqueIdentifier>{1f7a59f1-e6c5-49d1-812c-64048dc65fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="과제\방학과제">
+      <UniqueIdentifier>{9c363953-9965-49b5-a9ad-99dfffb1214f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Example_01.cpp">
+      <Filter>lesson\01.프로젝트 생성 + 입출력</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_02.cpp">
+      <Filter>lesson\02.자료형 + 변수 + 난수C++</Filter>
+    </ClCompile>
+    <ClCompile Include="과제1.cpp">
+      <Filter>과제\homework</Filter>
+    </ClCompile>
+    <ClCompile Include="과제2.cpp">
+      <Filter>과제\homework</Filter>
+    </ClCompile>
+    <ClCompile Include="과제3.cpp">
+      <Filter>과제\homework</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_03.cpp">
+      <Filter>lesson\03 연산자 + 반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="0718과제1.cpp">
+      <Filter>과제\과제0718</Filter>
+    </ClCompile>
+    <ClCompile Include="0718과제2.cpp">
+      <Filter>과제\과제0718</Filter>
+    </ClCompile>
+    <ClCompile Include="0718과제3.cpp">
+      <Filter>과제\과제0718</Filter>
+    </ClCompile>
+    <ClCompile Include="0718과제4.cpp">
+      <Filter>과제\과제0718</Filter>
+    </ClCompile>
+    <ClCompile Include="0718과제5.cpp">
+      <Filter>과제\과제0718</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_04.cpp">
+      <Filter>lesson\04.조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_04B.cpp">
+      <Filter>lesson\04.조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="과제0719.cpp">
+      <Filter>과제\과제0719</Filter>
+    </ClCompile>
+    <ClCompile Include="0719과제2.cpp">
+      <Filter>과제\과제0719</Filter>
+    </ClCompile>
+    <ClCompile Include="pratice001.cpp">
+      <Filter>lesson\연습폴더</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_05.cpp">
+      <Filter>lesson\05. 함수+변/상수 +전처리기</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_05B.cpp">
+      <Filter>lesson\05. 함수+변/상수 +전처리기</Filter>
+    </ClCompile>
+    <ClCompile Include="0722과제2.cpp">
+      <Filter>과제\과제0722</Filter>
+    </ClCompile>
+    <ClCompile Include="0722과제1.cpp">
+      <Filter>과제\과제0722</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_06.cpp">
+      <Filter>lesson\06. 배열</Filter>
+    </ClCompile>
+    <ClCompile Include="0723과제1.cpp">
+      <Filter>과제\과제0723</Filter>
+    </ClCompile>
+    <ClCompile Include="0723과제2.cpp">
+      <Filter>과제\과제0723</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_07.cpp">
+      <Filter>lesson\07. 삼항연산자, str함수 ,함수 오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="0723과제pr.cpp">
+      <Filter>과제\과제0723</Filter>
+    </ClCompile>
+    <ClCompile Include="0724과제1.cpp">
+      <Filter>과제\과제0724</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_08.cpp">
+      <Filter>lesson\08. 사용자 정의 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="0724과제pr.cpp">
+      <Filter>과제\과제0724</Filter>
+    </ClCompile>
+    <ClCompile Include="0725과제.cpp">
+      <Filter>과제\과제0725</Filter>
+    </ClCompile>
+    <ClCompile Include="0726.cpp">
+      <Filter>과제\방학과제</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
