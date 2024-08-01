@@ -1,9 +1,9 @@
-//#include<iostream>
-//#include<algorithm>
-//#include<time.h>
-//#include<random>
-//
-//using namespace std;
+#include<iostream>
+#include<algorithm>
+#include<time.h>
+#include<random>
+
+using namespace std;
 //
 //int main()
 //{
@@ -67,3 +67,19 @@
 //
 //}
 //
+int main()
+{
+	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	int* parr; // 정수형 포S인터
+	int i;
+	//parr포인터를 배열의 첫번째 요소의 주소를 저장
+	parr = &arr[0];
+
+	for (i = 0; i < 10; i++)
+	{
+		std::cout << "arr의 주소" << &arr[i] << std::endl;
+		std::cout << "parr의 값 : " << (parr + i) << std::endl;
+		std::cout << "parr의 원소값 : " << *(parr + i) << std::endl;
+
+	}
+}
