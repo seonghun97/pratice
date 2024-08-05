@@ -64,6 +64,18 @@
     <Filter Include="과제\과제0801">
       <UniqueIdentifier>{0d01d8e3-3154-4eec-a62f-ae003b262d31}</UniqueIdentifier>
     </Filter>
+    <Filter Include="lesson\10.클래스">
+      <UniqueIdentifier>{4e0772c5-ff08-4fe3-95ce-37467fb4d91d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="과제\과제0802">
+      <UniqueIdentifier>{357e2f56-3de1-46b3-ba5c-d7f9283940b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lesson\11.상속">
+      <UniqueIdentifier>{c0cefba6-8d5f-4965-bd54-f9e8c0bb0e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lesson\11.상속\header">
+      <UniqueIdentifier>{55af550c-f9e8-49e8-911e-e7177778a09d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Example_01.cpp">
@@ -168,5 +180,55 @@
     <ClCompile Include="0801과제.cpp">
       <Filter>과제\과제0801</Filter>
     </ClCompile>
+    <ClCompile Include="Example_10.cpp">
+      <Filter>lesson\10.클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_10.2.cpp">
+      <Filter>lesson\10.클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="Example10.3.cpp">
+      <Filter>lesson\10.클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="Example10.4.cpp">
+      <Filter>lesson\10.클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="binggoclass.cpp">
+      <Filter>과제\과제0802</Filter>
+    </ClCompile>
+    <ClCompile Include="vsgame.cpp">
+      <Filter>과제\과제0802</Filter>
+    </ClCompile>
+    <ClCompile Include="vs.cpp">
+      <Filter>과제\과제0802</Filter>
+    </ClCompile>
+    <ClCompile Include="vsgamep.cpp">
+      <Filter>과제\과제0802</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_11.cpp">
+      <Filter>lesson\11.상속</Filter>
+    </ClCompile>
+    <ClCompile Include="staticVariable.cpp">
+      <Filter>lesson\11.상속</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_11.2.cpp">
+      <Filter>lesson\11.상속</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_11.3.cpp">
+      <Filter>lesson\11.상속</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>lesson\11.상속</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Unit.h">
+      <Filter>lesson\11.상속\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Mage1.h">
+      <Filter>lesson\11.상속\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Warrior1.h">
+      <Filter>lesson\11.상속\header</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

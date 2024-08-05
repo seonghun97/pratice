@@ -1,46 +1,50 @@
-#include<stdio.h>
-#include<iostream>
-/*
-구조체를 활용한 학생정보 출력하기
-ㄴ 학생정보를 출력하는 함수
-ㄴ 학생정보를 추가하는 함수
-void(구조체)
-void(Student& s)
+#include <iostream>
+
+using namespace std;
+
+// 학생 정보를 저장하는 구조체
+struct Student
 {
-	복사말고 참조방식으로
+    string name;
+    string addr;
+    int age;
+    string phNum;
+};
+
+// 학생 정보를 추가하는 함수
+void addStudent(Student& s, string name, string addr, int age, string phNum)
+{
+    s.name = name;
+    s.addr = addr;
+    s.age = age;
+    s.phNum = phNum;
 }
-*/
-void stdadd(char, char, int ,char);
 
-struct Student 
+// 학생 정보를 출력하는 함수
+void printStudent(Student& s)
 {
-	char name[10];
-	char addr[30];
-	int Age;
-	char phNum[15];
-
-
-};
-
-//학생정보 추가함수
-struct AddStudent
-{
-
-};
-
-
+    cout << "이름: " << s.name << endl;
+    cout << "주소: " << s.addr << endl;
+    cout << "나이: " << s.age << endl;
+    cout << "전화번호: " << s.phNum << endl;
+    cout << "-----------------------" << endl;
+}
 
 int main()
 {
-	std::cout << "학생 정보 출력하기" << std::endl;
-	Student st1 = { "박철수", "천호", 15, "01051475514" };
-	stdadd;
+    Student students[3];
+
+    addStudent(students[0], "박철수", "천호동", 15, "010-5147-5514");
+    addStudent(students[1], "김영희", "강동", 16, "010-1234-5678");
+    addStudent(students[2], "이민호", "상암동", 17, "010-9876-5432");
+
+    cout << "학생 정보 출력하기" << endl;
+    for (int i = 0; i < 3; ++i)
+    {
+        printStudent(students[i]);
+    }
+
+    return 0;
 
 
-}
-
-void stdadd(char, char, int, char)
-{
-	Student st1 = { "박철수", "천호", 15, "01051475514" };
-	std::cout << st1.name << st1.addr << st1.Age << "\t" << st1.phNum << std::endl;
 }
