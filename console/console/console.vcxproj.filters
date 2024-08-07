@@ -76,6 +76,12 @@
     <Filter Include="lesson\11.상속\header">
       <UniqueIdentifier>{55af550c-f9e8-49e8-911e-e7177778a09d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="lesson\12.가상함수">
+      <UniqueIdentifier>{3ec82c76-802d-4c22-98a7-a56b506ad39e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lesson\13.업다운캐스팅,4가지cast,template">
+      <UniqueIdentifier>{e55a0211-fa77-4f90-9fa2-d83b941979df}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Example_01.cpp">
@@ -219,6 +225,42 @@
     <ClCompile Include="Unit.cpp">
       <Filter>lesson\11.상속</Filter>
     </ClCompile>
+    <ClCompile Include="상속연습.cpp">
+      <Filter>lesson\11.상속</Filter>
+    </ClCompile>
+    <ClCompile Include="Example12.cpp">
+      <Filter>lesson\12.가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>lesson\12.가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>lesson\12.가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="Bike.cpp">
+      <Filter>lesson\12.가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="Example12.1.cpp">
+      <Filter>lesson\12.가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="Example12.2.cpp">
+      <Filter>lesson\12.가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="Player1.cpp">
+      <Filter>lesson\12.가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit0806.cpp">
+      <Filter>lesson\12.가상함수</Filter>
+    </ClCompile>
+    <ClCompile Include="Example13.cpp">
+      <Filter>lesson\13.업다운캐스팅,4가지cast,template</Filter>
+    </ClCompile>
+    <ClCompile Include="Example13.1.cpp">
+      <Filter>lesson\13.업다운캐스팅,4가지cast,template</Filter>
+    </ClCompile>
+    <ClCompile Include="Example13.2.cpp">
+      <Filter>lesson\13.업다운캐스팅,4가지cast,template</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Unit.h">
@@ -229,6 +271,21 @@
     </ClInclude>
     <ClInclude Include="Warrior1.h">
       <Filter>lesson\11.상속\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>lesson\12.가상함수</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>lesson\12.가상함수</Filter>
+    </ClInclude>
+    <ClInclude Include="Bike.h">
+      <Filter>lesson\12.가상함수</Filter>
+    </ClInclude>
+    <ClInclude Include="Player1.h">
+      <Filter>lesson\12.가상함수</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit0806.h">
+      <Filter>lesson\12.가상함수</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

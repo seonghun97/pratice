@@ -229,4 +229,6 @@ int main()
 	w->attack(); // ÀÚ½Ä²¨
 	w->TakeDamage(10); // ºÎ¸ð²¨
 
+	Character* c = new Character("¹ý»ç", 200);
+
 }

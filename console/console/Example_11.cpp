@@ -55,7 +55,7 @@ using namespace std;
 //	x = x + 1;
 //	y = y + 1;
 //
-//	std::cout << "x값 : " << x << "y값 :" << y << std::endl;
+//	std::cout << "x값 : " << x << " y값 :" << y << std::endl;
 //
 //}
 #pragma endregion
