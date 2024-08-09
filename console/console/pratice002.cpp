@@ -97,79 +97,24 @@ using namespace std;
 //
 //    return 0;     // 프로그램 종료
 //}
-int add_book(string book_name[], string auth_name[], string publ_name[], int borrowed[], int& num_total_book);
-
-int main() {
-    int user_choice;        // 유저가 선택한 메뉴
-    int num_total_book = 0; // 현재 책의 수
-
-    // 각각 책, 저자, 출판사를 저장할 배열 생성. 책의 최대 개수는 100 권
-    const int MAX_BOOKS = 100;
-    string book_name[MAX_BOOKS], auth_name[MAX_BOOKS], publ_name[MAX_BOOKS];
-    int borrowed[MAX_BOOKS] = { 0 }; // 빌렸는지 상태를 표시
-
-    while (true) {
-        cout << "도서 관리 프로그램 \n";
-        cout << "메뉴를 선택하세요 \n";
-        cout << "1. 책을 새로 추가하기 \n";
-        cout << "2. 책을 검색하기 \n";
-        cout << "3. 책을 빌리기 \n";
-        cout << "4. 책을 반납하기 \n";
-        cout << "5. 프로그램 종료 \n";
-
-        cout << "당신의 선택은 : ";
-        cin >> user_choice;
-
-        switch (user_choice) {
-        case 1:
-            // 책을 새로 추가하는 함수 호출
-            add_book(book_name, auth_name, publ_name, borrowed, num_total_book);
-            break;
-        case 2:
-            // 책을 검색하는 함수 호출
-            cout << "책 검색 기능은 아직 구현되지 않았습니다.\n";
-            break;
-        case 3:
-            // 책을 빌리는 함수 호출
-            cout << "책 빌리기 기능은 아직 구현되지 않았습니다.\n";
-            break;
-        case 4:
-            // 책을 반납하는 함수 호출
-            cout << "책 반납 기능은 아직 구현되지 않았습니다.\n";
-            break;
-        case 5:
-            // 프로그램을 종료한다.
-            cout << "프로그램을 종료합니다.\n";
-            return 0;
-        default:
-            cout << "올바른 선택을 해주세요.\n";
-            break;
-        }
-    }
-
-    return 0;
-}
-
-// 책을 추가하는 함수
-int add_book(string book_name[], string auth_name[], string publ_name[], int borrowed[], int& num_total_book) {
-    if (num_total_book >= 100) {
-        cout << "책의 최대 개수에 도달했습니다.\n";
-        return -1; // 에러 코드
-    }
-
-    cout << "추가할 책의 제목 : ";
-    cin.ignore(); // 이전 입력 버퍼 지우기
-    getline(cin, book_name[num_total_book]);
-
-    cout << "추가할 책의 저자 : ";
-    getline(cin, auth_name[num_total_book]);
-
-    cout << "추가할 책의 출판사 : ";
-    getline(cin, publ_name[num_total_book]);
-
-    borrowed[num_total_book] = 0; // 빌려지지 않음
-    cout << "추가 완료! \n";
-    num_total_book++;
-
-    return 0;
-}
+ 
+//#include <stdio.h>
+//struct TEST {
+//	int c;
+//};
+//int main() {
+//	struct TEST t;
+//	struct TEST* pt = &t;
+//
+//	/* pt 가 가리키는 구조체 변수의 c 멤버의 값을 0 으로 한다*/
+//	(*pt).c = 0;
+//
+//	printf("t.c : %d \n", t.c);
+//
+//	/* pt 가 가리키는 구조체 변수의 c 멤버의 값을 1 으로 한다*/
+//	pt->c = 1;
+//
+//	printf("t.c : %d \n", t.c);
+//
+//	return 0;
+//}
