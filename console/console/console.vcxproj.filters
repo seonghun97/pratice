@@ -85,6 +85,9 @@
     <Filter Include="lesson\14.STL">
       <UniqueIdentifier>{74d6169b-21da-4886-a622-3a812a2d99c3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="lesson\15.Map,Pair">
+      <UniqueIdentifier>{cffecb44-129d-4649-9f13-39d29957dfec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Example_01.cpp">
@@ -269,6 +272,15 @@
     </ClCompile>
     <ClCompile Include="Example14.1.cpp">
       <Filter>lesson\14.STL</Filter>
+    </ClCompile>
+    <ClCompile Include="Example15.cpp">
+      <Filter>lesson\15.Map,Pair</Filter>
+    </ClCompile>
+    <ClCompile Include="Example15.1.cpp">
+      <Filter>lesson\15.Map,Pair</Filter>
+    </ClCompile>
+    <ClCompile Include="pratice002.cpp">
+      <Filter>lesson\연습폴더</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
